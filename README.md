@@ -18,3 +18,18 @@ I deployed GLPI + MariaDB using Docker Compose to practice ITSM workflows for De
 ```bash
 docker compose up -d
 docker compose ps
+```
+
+**Containers running:**
+
+![Docker Compose Status](https://github.com/EdwinBAI/glpi-desktop-support-lab/blob/main/01-docker-compose-ps.png)
+
+## Screenshots
+
+**GLPI Login Page:**
+
+![GLPI Login](https://github.com/EdwinBAI/glpi-desktop-support-lab/blob/main/02-glpi-login-page.png)
+
+**GLPI Dashboard:**
+
+![GLPI Dashboard](https://github.com/EdwinBAI/glpi-desktop-support-lab/blob/main/03-glpi-dashboard.png)
