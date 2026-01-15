@@ -2,13 +2,19 @@
 
 I deployed GLPI + MariaDB using Docker Compose to practice ITSM workflows for Desktop Support roles.
 
-## What is completed
-- Containerized GLPI deployment (Docker Compose)
-- Basic configuration and login verified
+## What this demonstrates
+- Ticket hygiene: intake → triage → resolution → verification → closure
+- Clear documentation: symptoms, scope, steps taken, outcome, escalation criteria
+- Practical desktop support thinking (Outlook, printers, login/MFA, Windows, network)
 
-## What I’m building next
-- Sample tickets (Outlook, printers, login/MFA, network)
-- A small KB article set (printer triage, Outlook profile issues)
+## Environment
+- GLPI (Docker container)
+- MariaDB (Docker container)
+- Local access: http://localhost:8080
 
-## Why this exists
-To demonstrate ticket hygiene: intake → triage → resolution → verification → closure.
+## Quick start
+1) Install Docker Desktop
+2) From the repo root:
+```bash
+docker compose up -d
+docker compose ps
